@@ -30,13 +30,13 @@ struct MyVstack : View {
             Rectangle()
                 .frame(width: 100, height: 100)
                 .foregroundColor(Color.yellow)
-            Spacer()
+            Spacer() //공간 만들기 50
                 .frame(height: 50)
             Rectangle()
                 .frame(width: 100, height: 100)
                 .foregroundColor(Color.blue)
             
-//            Spacer()
+//            Spacer() //가중치를 두기.
 //            Spacer()
 //            Spacer()
             
